@@ -5,7 +5,7 @@
 int[] returnArray(int N)
 {
     int[] array = new int[N];
-    Console.Write("[");
+    Console.Write("[ ");
     for (int i = 0; i < N; i++)
     {
         array[i] = new Random().Next(100, 1000);
