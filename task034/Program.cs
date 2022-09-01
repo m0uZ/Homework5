@@ -23,9 +23,6 @@ int[] rndArray = returnArray(N);
 int sum = 0;
 for (int i = 0; i < rndArray.Length; i++)
 {
-    if (rndArray[i] % 2 == 0)
-    {
-        sum++;
-    }
+    if (rndArray[i] % 2 == 0) sum++;
 }
-Console.WriteLine($"Число четных элементов в массиве {sum}");
+Console.WriteLine($"Число четных элементов в массиве => {sum} <= ");
